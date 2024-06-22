@@ -2,7 +2,7 @@ import mysql.connector
 
 def connect():
     try:
-        db = mysql.connector.connect(host="localhost",user="root",password="root",database="informatika")
+        db = mysql.connector.connect(host="localhost",user="root",password="",database="informatika")
 
         print("Berhasil terhubung ke database")
         return db
